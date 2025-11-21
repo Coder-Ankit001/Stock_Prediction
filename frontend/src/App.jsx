@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-
+import './assets/css/style.css'
+import Header from './components/Header'
+import Content from './components/Content'
+import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='text-2xl font-semibold ml-4'>Stock Predictor</div>
+      <Header/>
+      <Content/>
+      <Footer/>
     </>
   )
 }
