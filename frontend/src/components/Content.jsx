@@ -1,10 +1,9 @@
 import React from 'react'
 import Button from './Button'
-
 const Content = () => {
     return (
         <>
-            <div className='bg-slate-800 h-[80vh] w-full flex justify-center'>
+            <div className='h-[80vh] w-full flex justify-center'>
                 <div className='w-[60vw] h-[60vh] bg-slate-600 rounded-lg mt-10 flex flex-col items-center gap-y-6'>
                     <div className='text-3xl font-semibold text-white mt-4'> Stock Prediction Portal </div>
                     <div className='text-white w-[90%] text-xl flex flex-col items-center gap-y-2'>
